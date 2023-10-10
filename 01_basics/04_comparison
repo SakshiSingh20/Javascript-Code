@@ -1,0 +1,22 @@
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+// console.log("2" > 1);
+// console.log("02" > 1);
+
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
+
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
+ 
+//Both the above type of coversions are confusing and can create difficulty we should always avoid these type of comparison //
+
+// === 
+
+console.log("2" === 2);
