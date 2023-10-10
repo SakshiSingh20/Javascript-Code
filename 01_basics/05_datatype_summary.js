@@ -29,7 +29,31 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof userEmail);
+// console.log(typeof userEmail);
 
 // Array, Objects, Functions
 
+
+//+++++++++++++++++++++++++++++++++++
+
+//stack(Primitive), Heap(Non-Primitive)
+
+// let myDogname = "tyson"
+// let anothername = myDogname
+// anothername = "leo"
+
+// console.log(anothername)
+// console.log(myDogname)
+
+// Heap(Non-Primitive)
+
+let userOne = {
+    email:"sakshi@google.com",
+    Upi : "upi@ynl"
+}
+
+let userTwo = userOne
+userTwo.email= "sakshark@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
